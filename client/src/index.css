@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
+
+/* Ensure Leaflet maps have lower z-index than modals */
+.leaflet-container {
+  z-index: 1 !important;
+}
+
+.leaflet-control-container {
+  z-index: 2 !important;
+}
+
+.leaflet-popup-pane {
+  z-index: 3 !important;
+}
+
+/* Ensure dialogs and modals have higher z-index */
+[data-radix-popper-content-wrapper] {
+  z-index: 60 !important;
+}
+
+:root {
+  /* Bilt-inspired dark theme */
+  --background: hsl(220, 20%, 8%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(220, 10%, 12%);
+  --muted-foreground: hsl(220, 5%, 65%);
+  --popover: hsl(220, 15%, 8%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(220, 15%, 9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(220, 10%, 18%);
+  --input: hsl(220, 10%, 25%);
+  --primary: hsl(210, 100%, 50%); /* Cool blue */
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(220, 15%, 20%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(210, 80%, 45%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(210, 100%, 50%);
+  --radius: 0.75rem;
+  --chart-1: hsl(210, 100%, 50%);
+  --chart-2: hsl(210, 90%, 45%);
+  --chart-3: hsl(210, 80%, 40%);
+  --chart-4: hsl(210, 70%, 35%);
+  --chart-5: hsl(210, 60%, 30%);
+  
+  /* Liquid glass effect variables */
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --glass-backdrop: blur(12px);
+}
+
+.dark {
+  /* Enhanced dark theme for Bilt aesthetic */
+  --background: hsl(220, 20%, 4%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(220, 15%, 8%);
+  --muted-foreground: hsl(220, 5%, 70%);
+  --popover: hsl(220, 20%, 5%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(220, 18%, 6%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(220, 15%, 15%);
+  --input: hsl(220, 15%, 22%);
+  --primary: hsl(210, 100%, 55%); /* Brighter cool blue */
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(220, 20%, 18%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(210, 90%, 50%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 70%, 55%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(210, 100%, 55%);
+  --radius: 0.75rem;
+  --chart-1: hsl(210, 100%, 55%);
+  --chart-2: hsl(210, 90%, 50%);
+  --chart-3: hsl(210, 80%, 45%);
+  --chart-4: hsl(210, 70%, 40%);
+  --chart-5: hsl(210, 60%, 35%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased text-foreground;
+    background: hsl(220, 20%, 8%) !important;
+    min-height: 100vh;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  html {
+    background: hsl(220, 20%, 8%) !important;
+  }
+  
+  #root {
+    background: hsl(220, 20%, 8%) !important;
+    min-height: 100vh;
+  }
+
+  /* Mobile-first optimizations */
+  @media (max-width: 768px) {
+    body {
+      padding-bottom: calc(4rem + env(safe-area-inset-bottom));
+    }
+  }
+}
+
+/* Force dark mode for property detail modal */
+.property-detail-modal-dark {
+  background: hsl(220, 20%, 4%) !important;
+}
+
+.property-detail-content {
+  background: hsl(220, 20%, 4%) !important;
+}
+
+/* Resizable messages modal styles */
+.messages-container {
+  user-select: none;
+}
+
+.messages-container.resizing {
+  cursor: col-resize;
+}
+
+.messages-container.resizing * {
+  pointer-events: none;
+  user-select: none;
+}
+
+@layer components {
+  .mobile-safe-bottom {
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom));
+  }
+
+  /* Enhanced input visibility for dark theme */
+  input[type="text"], input[type="number"], input[type="email"], input[type="password"], textarea {
+    background-color: hsl(220, 15%, 25%) !important;
+    color: hsl(0, 0%, 95%) !important;
+    border-color: hsl(220, 10%, 35%) !important;
+  }
+  
+  input[type="text"]::placeholder, 
+  input[type="number"]::placeholder, 
+  input[type="email"]::placeholder, 
+  input[type="password"]::placeholder, 
+  textarea::placeholder {
+    color: hsl(220, 5%, 60%) !important;
+  }
+
+  /* Liquid Glass Modal Effects */
+  .glass-modal {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-backdrop);
+    -webkit-backdrop-filter: var(--glass-backdrop);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    border-radius: 1rem;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .glass-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+
+  /* Cool blue gradient buttons */
+  .bilt-gradient {
+    background: linear-gradient(135deg, hsl(210, 100%, 50%) 0%, hsl(210, 100%, 55%) 100%);
+    transition: all 0.3s ease;
+  }
+
+  .bilt-gradient:hover {
+    background: linear-gradient(135deg, hsl(210, 100%, 55%) 0%, hsl(210, 100%, 60%) 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 150, 255, 0.3);
+  }
+
+  /* Enhanced card styling */
+  .bilt-card {
+    background: linear-gradient(145deg, 
+      rgba(255, 255, 255, 0.05) 0%, 
+      rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* Liquid Glass Card */
+  .liquid-glass-card {
+    background: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.1) 0%, 
+      rgba(255, 255, 255, 0.05) 50%, 
+      rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 
+      0 20px 40px rgba(0, 0, 0, 0.4),
+      0 0 0 1px rgba(255, 255, 255, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .liquid-glass-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, 
+      transparent 0%, 
+      rgba(255, 255, 255, 0.4) 50%, 
+      transparent 100%);
+  }
+
+  .liquid-glass-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 30% 20%, 
+      rgba(255, 255, 255, 0.1) 0%, 
+      transparent 50%);
+    pointer-events: none;
+  }
+
+  /* Square Card Container */
+  .square-card {
+    aspect-ratio: 1;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Animated background */
+  .bilt-bg {
+    background: linear-gradient(135deg, 
+      hsl(220, 20%, 4%) 0%, 
+      hsl(220, 25%, 6%) 25%,
+      hsl(220, 20%, 5%) 50%,
+      hsl(220, 18%, 7%) 100%);
+  }
+}

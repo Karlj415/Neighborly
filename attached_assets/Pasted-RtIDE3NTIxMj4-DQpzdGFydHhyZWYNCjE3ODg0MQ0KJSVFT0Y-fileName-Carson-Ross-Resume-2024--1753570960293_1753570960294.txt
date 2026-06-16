@@ -1,0 +1,79 @@
+RtIDE3NTIxMj4+DQpzdGFydHhyZWYNCjE3ODg0MQ0KJSVFT0Y=",
+          "fileName": "Carson Ross Resume 2024.pdf",
+          "fileSize": 179024,
+          "mimeType": "application/pdf",
+          "declinedAt": "2025-07-13T14:03:07.252Z",
+          "isDeclined": true,
+          "isVerified": false,
+          "uploadedAt": "2025-07-13T14:02:48.681Z",
+          "verifiedAt": null,
+          "documentType": "employment_letter"
+        },
+        {
+          "id": 4,
+          "userId": "6",
+          "fileUrl": "/documents/6/IMG_3405.JPG",
+          "fileName": "IMG_3405.JPG",
+          "fileSize": 798902,
+          "mimeType": "image/jpeg",
+          "declinedAt": null,
+          "isDeclined": false,
+          "isVerified": true,
+          "uploadedAt": "2025-07-13T13:53:32.439Z",
+          "verifiedAt": "2025-07-13T13:54:25.250Z",
+          "documentType": "id"
+        },
+        {
+          "id": 3,
+          "userId": "6",
+          "fileUrl": "/documents/6/IMG_3405.JPG",
+          "fileName": "IMG_3405.JPG",
+          "fileSize": 798902,
+          "mimeType": "image/jpeg",
+          "declinedAt": "2025-07-13T13:53:21.145Z",
+          "isDeclined": true,
+          "isVerified": false,
+          "uploadedAt": "2025-07-13T13:50:30.339Z",
+          "verifiedAt": null,
+          "documentType": "id"
+        },
+        {
+          "id": 1,
+          "userId": "6",
+          "fileUrl": "/documents/6/IMG_3405.JPG",
+          "fileName": "IMG_3405.JPG",
+          "fileSize": 798902,
+          "mimeType": "image/jpeg",
+          "declinedAt": "2025-07-13T13:50:05.572Z",
+          "isDeclined": true,
+          "isVerified": false,
+          "uploadedAt": "2025-07-13T01:53:18.337Z",
+          "verifiedAt": null,
+          "documentType": "id"
+        }
+      ],
+      "propertyId": 36,
+      "applicantData": {
+        "name": "Jermaine Davis",
+        "email": "jermainedavis@gmail.com",
+        "employer": null,
+        "occupation": null,
+        "creditScore": 650,
+        "monthlyIncome": null,
+        "profileImageUrl": null,
+        "hasConsentedToShare": {
+          "phone": false,
+          "income": false,
+          "employment": false,
+          "creditScore": false
+        }
+      },
+      "applicationId": 24,
+      "propertyAddress": "8159 Southwestern Boulevard"
+    },
+    "isRead": false,
+    "createdAt": "2025-07-26T22:19:30.380Z"
+  }
+]
+=== GET /api/user-conversations/:id/messages DEBUG END ===
+11:01:53 PM [express] GET /api/user-conversations/1/messages 304 in 3943ms :: [{"id":1,"conversationI…

@@ -1,0 +1,36 @@
+Generating bot response for: { userMessage: 'hello', userType: 'tenant', topic: 'general' }
+Error generating AI response: RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at Function.generate (/home/runner/workspace/node_modules/openai/src/core/error.ts:96:14)
+    at OpenAI.makeStatusError (/home/runner/workspace/node_modules/openai/src/client.ts:425:28)
+    at OpenAI.makeRequest (/home/runner/workspace/node_modules/openai/src/client.ts:646:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async generateBotResponse (/home/runner/workspace/server/ai-helper.ts:45:24)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:784:27) {
+  status: 429,
+  headers: Headers {
+    date: 'Sun, 06 Jul 2025 13:50:12 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '337',
+    connection: 'keep-alive',
+    vary: 'Origin',
+    'x-request-id': 'req_51cf51afaf7ceb37e7a5d6c6190dcb4f',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    'cf-cache-status': 'DYNAMIC',
+    'set-cookie': '__cf_bm=4RozhynBpEUC5YpuF9nkHWXhy8zc2GPfCLZNNWD1GAg-1751809812-1.0.1.1-hMgzVGZuYlIo7vfIRV4KqcWsH45BnKkRnj5Ri_K.wtZw3TZFy5dxmC9jiTibBj_HaDyKtAhfSKhfHIQayhQnUpeh6.6ElRAbBWijw6aQxt0; path=/; expires=Sun, 06-Jul-25 14:20:12 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=UUt4PQZAWlVQpOkl4Ar7NWQhlj1QsD02B7OSVyjzmbA-1751809812963-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+    'x-content-type-options': 'nosniff',
+    server: 'cloudflare',
+    'cf-ray': '95af91e07b6a6805-SEA',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_51cf51afaf7ceb37e7a5d6c6190dcb4f',
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
+Error details: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.

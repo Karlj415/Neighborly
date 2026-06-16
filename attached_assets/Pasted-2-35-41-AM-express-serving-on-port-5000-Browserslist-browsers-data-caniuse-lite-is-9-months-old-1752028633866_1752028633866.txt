@@ -1,0 +1,44 @@
+2:35:41 AM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2:35:48 AM [express] GET /api/auth/user 200 in 454ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+2:35:49 AM [express] GET /api/properties 304 in 187ms :: [{"id":1,"title":"Modern Downtown Apartment…
+2:35:49 AM [express] GET /api/saved-properties 304 in 429ms :: []
+2:35:49 AM [express] GET /api/search-properties 200 in 122ms
+2:35:54 AM [express] GET /api/auth/user 200 in 237ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+2:36:06 AM [express] POST /api/auth/login 200 in 1166ms :: {"message":"Login successful","user":{"id…
+2:36:07 AM [express] GET /api/auth/user 200 in 233ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+2:36:07 AM [express] GET /api/properties 304 in 530ms :: [{"id":1,"title":"Modern Downtown Apartment…
+2:36:07 AM [express] GET /api/saved-properties 304 in 774ms :: []
+2:36:10 AM [express] GET /api/search-properties 200 in 125ms
+RentCast API request failed: Error: RentCast API error (401): {"status":401,"error":"auth/api-key-invalid","message":"The provided API key is not valid. Manage API keys on your API dashboard: https://app.rentcast.io/app/api"}
+    at RentCastAPI.makeRequest (/home/runner/workspace/server/rentcast-api.ts:84:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RentCastAPI.searchProperties (/home/runner/workspace/server/rentcast-api.ts:139:24)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:318:25)
+Failed to search properties: Error: RentCast API error (401): {"status":401,"error":"auth/api-key-invalid","message":"The provided API key is not valid. Manage API keys on your API dashboard: https://app.rentcast.io/app/api"}
+    at RentCastAPI.makeRequest (/home/runner/workspace/server/rentcast-api.ts:84:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RentCastAPI.searchProperties (/home/runner/workspace/server/rentcast-api.ts:139:24)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:318:25)
+RentCast API error: Error: Failed to search properties from RentCast API
+    at RentCastAPI.searchProperties (/home/runner/workspace/server/rentcast-api.ts:148:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:318:25)
+2:36:23 AM [express] GET /api/rentcast/search 503 in 865ms :: {"message":"RentCast API temporarily u…
+2:36:24 AM [express] POST /api/rewards/search-bonus 200 in 246ms :: {"message":"Search bonus awarded…
+2:36:26 AM [express] GET /api/auth/user 200 in 233ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+RentCast API request failed: Error: RentCast API error (401): {"status":401,"error":"auth/api-key-invalid","message":"The provided API key is not valid. Manage API keys on your API dashboard: https://app.rentcast.io/app/api"}
+    at RentCastAPI.makeRequest (/home/runner/workspace/server/rentcast-api.ts:84:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RentCastAPI.searchProperties (/home/runner/workspace/server/rentcast-api.ts:139:24)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:318:25)
+Failed to search properties: Error: RentCast API error (401): {"status":401,"error":"auth/api-key-invalid","message":"The provided API key is not valid. Manage API keys on your API dashboard: https://app.rentcast.io/app/api"}
+    at RentCastAPI.makeRequest (/home/runner/workspace/server/rentcast-api.ts:84:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async RentCastAPI.searchProperties (/home/runner/workspace/server/rentcast-api.ts:139:24)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:318:25)
+RentCast API error: Error: Failed to search properties from RentCast API
+    at RentCastAPI.searchProperties (/home/runner/workspace/server/rentcast-api.ts:148:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

@@ -1,0 +1,726 @@
+11:43:21 PM [express] GET /api/rentcast/search 200 in 296ms :: {"properties":[{"id":"7315-Highway,-31…
+11:43:41 PM [express] GET /api/auth/user 200 in 778ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+Making RentCast API request to: https://api.rentcast.io/v1/properties?limit=20&offset=0&city=Austin
+Request headers: {
+  'X-Api-Key': '56937ae3730d48bab6c34e27e53241ee',
+  'Content-Type': 'application/json'
+}
+Request params: { limit: 20, offset: 0, city: 'Austin' }
+RentCast API response status: 200 OK
+RentCast API success response: [
+  {
+    "id": "7315-Highway,-319-W,-Austin,-AR-72007",
+    "formattedAddress": "7315 Highway, 319 W, Austin, AR 72007",
+    "addressLine1": "7315 Highway",
+    "addressLine2": "319 W",
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 35.060084,
+    "longitude": -92.063925,
+    "propertyType": "Manufactured",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1320,
+    "yearBuilt": 1988
+  },
+  {
+    "id": "240-Plum-Dr,-Austin,-AR-72007",
+    "formattedAddress": "240 Plum Dr, Austin, AR 72007",
+    "addressLine1": "240 Plum Dr",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.990532,
+    "longitude": -91.986501,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1424,
+    "yearBuilt": 2008,
+    "assessorID": "710-07462-000",
+    "legalDescription": "LOT:62F CITY/MUNI/TWP:AUSTIN SUBD:ORCHARD ESTATES SEC/TWN/RNG/MER:SEC 08 TWN 04N RNG 09W",
+    "subdivision": "ORCHARD ESTATES",
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Brick / Stone",
+      "floorCount": 1,
+      "foundationType": "Slab / Mat / Raft",
+      "garage": true,
+      "garageSpaces": 2,
+      "garageType": "Attached",
+      "heating": true,
+      "heatingType": "Central",
+      "roofType": "Shingle"
+    },
+    "taxAssessments": {
+      "2020": {
+        "year": 2020,
+        "value": 26900,
+        "land": 4000,
+        "improvements": 22900
+      },
+      "2022": {
+        "year": 2022,
+        "value": 27160,
+        "land": 4000,
+        "improvements": 23160
+      },
+      "2023": {
+        "year": 2023,
+        "value": 27160,
+        "land": 4000,
+        "improvements": 23160
+      }
+    },
+    "propertyTaxes": {
+      "2020": {
+        "year": 2020,
+        "total": 1361
+      },
+      "2022": {
+        "year": 2022,
+        "total": 1374
+      },
+      "2023": {
+        "year": 2023,
+        "total": 1374
+      }
+    },
+    "owner": {
+      "names": [
+        "Joshua Novotny"
+      ],
+      "type": "Individual"
+    },
+    "ownerOccupied": true
+  },
+  {
+    "id": "415-Ray-Sowell-Rd,-Austin,-AR-72007",
+    "formattedAddress": "415 Ray Sowell Rd, Austin, AR 72007",
+    "addressLine1": "415 Ray Sowell Rd",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.981299,
+    "longitude": -91.963211,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 880,
+    "lotSize": 77537,
+    "yearBuilt": 2004,
+    "assessorID": "001-09320-002",
+    "legalDescription": "PT N1/2 NW NW NW",
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Wood",
+      "floorCount": 1,
+      "foundationType": "Slab / Mat / Raft",
+      "garage": true,
+      "garageSpaces": 5,
+      "garageType": "Mixed",
+      "heating": true,
+      "heatingType": "Central",
+      "roofType": "Metal",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2021": {
+        "year": 2021,
+        "value": 20310,
+        "land": 3560,
+        "improvements": 16750
+      },
+      "2022": {
+        "year": 2022,
+        "value": 20310,
+        "land": 3560,
+        "improvements": 16750
+      },
+      "2023": {
+        "year": 2023,
+        "value": 20310,
+        "land": 3560,
+        "improvements": 16750
+      }
+    },
+    "propertyTaxes": {
+      "2021": {
+        "year": 2021,
+        "total": 856
+      },
+      "2022": {
+        "year": 2022,
+        "total": 932
+      },
+      "2023": {
+        "year": 2023,
+        "total": 932
+      }
+    },
+    "owner": {
+      "names": [
+        "JAY PROPERTIES LLC"
+      ],
+      "type": "Organization",
+      "mailingAddress": {
+        "id": "PO-BOX-57,-Austin,-AR-72007",
+        "formattedAddress": "PO BOX 57, Austin, AR 72007",
+        "addressLine1": "PO BOX 57",
+        "addressLine2": null,
+        "city": "Austin",
+        "state": "AR",
+        "zipCode": "72007"
+      }
+    },
+    "ownerOccupied": false
+  },
+  {
+    "id": "207-N-2nd-St,-Austin,-AR-72007",
+    "formattedAddress": "207 N 2nd St, Austin, AR 72007",
+    "addressLine1": "207 N 2nd St",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.997986,
+    "longitude": -91.980742,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1008,
+    "lotSize": 16553,
+    "yearBuilt": 2012,
+    "assessorID": "710-08704-000",
+    "legalDescription": "CITY/MUNI/TWP:AUSTIN SUBD:ACLIN ESTATES SEC/TWN/RNG/MER:SEC 04 TWN 04N RNG 09W",
+    "subdivision": "ACLIN ESTATES",
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Wood",
+      "floorCount": 1,
+      "foundationType": "Slab / Mat / Raft",
+      "heating": true,
+      "heatingType": "Central",
+      "roofType": "Shingle"
+    },
+    "taxAssessments": {
+      "2023": {
+        "year": 2023,
+        "value": 12200,
+        "land": 1000,
+        "improvements": 11200
+      },
+      "2024": {
+        "year": 2024,
+        "value": 12200,
+        "land": 1000,
+        "improvements": 11200
+      }
+    },
+    "propertyTaxes": {
+      "2023": {
+        "year": 2023,
+        "total": 617
+      }
+    },
+    "owner": {
+      "names": [
+        "RLA INVESTMENTS LLC"
+      ],
+      "type": "Organization",
+      "mailingAddress": {
+        "id": "1522-S-2nd-St,-Cabot,-AR-72023",
+        "formattedAddress": "1522 S 2nd St, Cabot, AR 72023",
+        "addressLine1": "1522 S 2nd St",
+        "addressLine2": null,
+        "city": "Cabot",
+        "state": "AR",
+        "zipCode": "72023"
+      }
+    },
+    "ownerOccupied": false
+  },
+  {
+    "id": "284-Bailey-Rd,-Austin,-AR-72007",
+    "formattedAddress": "284 Bailey Rd, Austin, AR 72007",
+    "addressLine1": "284 Bailey Rd",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 35.041546,
+    "longitude": -92.038643,
+    "propertyType": "Multi-Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 875,
+    "yearBuilt": 2016
+  },
+  {
+    "id": "77-Seminole-Crk,-Austin,-AR-72007",
+    "formattedAddress": "77 Seminole Crk, Austin, AR 72007",
+    "addressLine1": "77 Seminole Crk",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke County",
+    "latitude": 34.977195,
+    "longitude": -91.988826,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1560,
+    "yearBuilt": 2008
+  },
+  {
+    "id": "1535-E-Main-St,-Austin,-AR-72007",
+    "formattedAddress": "1535 E Main St, Austin, AR 72007",
+    "addressLine1": "1535 E Main St",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.997268,
+    "longitude": -91.982183,
+    "propertyType": "Single Family",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 1056
+  },
+  {
+    "id": "780-Saddle-Brook-Cir,-Austin,-AR-72007",
+    "formattedAddress": "780 Saddle Brook Cir, Austin, AR 72007",
+    "addressLine1": "780 Saddle Brook Cir",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.943315,
+    "longitude": -91.910012,
+    "propertyType": "Land",
+    "lotSize": 81022
+  },
+  {
+    "id": "250-Saddle-Brook-Cir,-Austin,-AR-72007",
+    "formattedAddress": "250 Saddle Brook Cir, Austin, AR 72007",
+    "addressLine1": "250 Saddle Brook Cir",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.941731,
+    "longitude": -91.90667,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1930,
+    "lotSize": 61855,
+    "yearBuilt": 2024
+  },
+  {
+    "id": "750-Saddle-Brook-Cir,-Austin,-AR-72007",
+    "formattedAddress": "750 Saddle Brook Cir, Austin, AR 72007",
+    "addressLine1": "750 Saddle Brook Cir",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.94331,
+    "longitude": -91.909345,
+    "propertyType": "Land",
+    "lotSize": 76230
+  },
+  {
+    "id": "1243-Mccollum-Rd,-Austin,-AR-72007",
+    "formattedAddress": "1243 Mccollum Rd, Austin, AR 72007",
+    "addressLine1": "1243 Mccollum Rd",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke County",
+    "latitude": 34.926687,
+    "longitude": -91.920354,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2317,
+    "lotSize": 108900,
+    "yearBuilt": 1963
+  },
+  {
+    "id": "3045-Lewisburg-Rd,-Austin,-AR-72007",
+    "formattedAddress": "3045 Lewisburg Rd, Austin, AR 72007",
+    "addressLine1": "3045 Lewisburg Rd",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 35.044202,
+    "longitude": -92.03301,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 2476,
+    "lotSize": 87120,
+    "yearBuilt": 1997,
+    "assessorID": "00112746002",
+    "legalDescription": "PT E1/2 SW NW SW",
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Frame Brick",
+      "floorCount": 1,
+      "foundationType": "Pier",
+      "garage": true,
+      "garageType": "Attached",
+      "heating": true,
+      "heatingType": "Central",
+      "roofType": "Asphalt",
+      "unitCount": 1
+    },
+    "owner": {
+      "names": [
+        ""
+      ]
+    },
+    "ownerOccupied": false
+  },
+  {
+    "id": "995-Webber-Ln,-Austin,-AR-72007",
+    "formattedAddress": "995 Webber Ln, Austin, AR 72007",
+    "addressLine1": "995 Webber Ln",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke County",
+    "latitude": 34.965424,
+    "longitude": -91.943894,
+    "propertyType": "Land",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1150
+  },
+  {
+    "id": "300-Bailey-Rd,-Austin,-AR-72007",
+    "formattedAddress": "300 Bailey Rd, Austin, AR 72007",
+    "addressLine1": "300 Bailey Rd",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke County",
+    "latitude": 35.040153,
+    "longitude": -92.038364,
+    "propertyType": "Multi-Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 875,
+    "yearBuilt": 2016
+  },
+  {
+    "id": "315-Alma-Dr,-Austin,-AR-72007",
+    "formattedAddress": "315 Alma Dr, Austin, AR 72007",
+    "addressLine1": "315 Alma Dr",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 35.010326,
+    "longitude": -91.985376,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1699,
+    "yearBuilt": 2003,
+    "assessorID": "710-06827-000",
+    "legalDescription": "LOT:27 CITY/MUNI/TWP:AUSTIN SUBD:AUSTIN VILLAGE SEC/TWN/RNG/MER:SEC 05 TWN 04N RNG 09W",
+    "subdivision": "AUSTIN VILLAGE",
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Brick / Stone",
+      "fireplace": true,
+      "fireplaceType": "Single",
+      "floorCount": 1,
+      "foundationType": "Slab / Mat / Raft",
+      "garage": true,
+      "garageType": "Attached",
+      "heating": true,
+      "heatingType": "Central",
+      "roofType": "Shingle",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 29890,
+        "land": 3500,
+        "improvements": 26390
+      },
+      "2023": {
+        "year": 2023,
+        "value": 29890,
+        "land": 3500,
+        "improvements": 26390
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 1512
+      },
+      "2023": {
+        "year": 2023,
+        "total": 1512
+      }
+    },
+    "owner": {
+      "names": [
+        "PUCKETT INVESTMENTS LLC"
+      ],
+      "type": "Organization",
+      "mailingAddress": {
+        "id": "315-Alma-Dr,-Austin,-AR-72007",
+        "formattedAddress": "315 Alma Dr, Austin, AR 72007",
+        "addressLine1": "315 Alma Dr",
+        "addressLine2": null,
+        "city": "Austin",
+        "state": "AR",
+        "zipCode": "72007"
+      }
+    },
+    "ownerOccupied": true
+  },
+  {
+    "id": "91-Nixon-Ln,-Austin,-AR-72007",
+    "formattedAddress": "91 Nixon Ln, Austin, AR 72007",
+    "addressLine1": "91 Nixon Ln",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke County",
+    "latitude": 34.984807,
+    "longitude": -91.990708,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1875,
+    "yearBuilt": 2022
+  },
+  {
+    "id": "50-Hudson-Branch-Dr,-Austin,-AR-72007",
+    "formattedAddress": "50 Hudson Branch Dr, Austin, AR 72007",
+    "addressLine1": "50 Hudson Branch Dr",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.984115,
+    "longitude": -91.990805,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2150,
+    "yearBuilt": 2023
+  },
+  {
+    "id": "241-Plum-Dr,-Austin,-AR-72007",
+    "formattedAddress": "241 Plum Dr, Austin, AR 72007",
+    "addressLine1": "241 Plum Dr",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.990118,
+    "longitude": -91.986426,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1207,
+    "yearBuilt": 2008,
+    "assessorID": "710-07456-000",
+    "legalDescription": "LOT:56 CITY/MUNI/TWP:AUSTIN SUBD:ORCHARD ESTATES SEC/TWN/RNG/MER:SEC 08 TWN 04N RNG 09W",
+    "subdivision": "ORCHARD ESTATES",
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Wood",
+      "floorCount": 1,
+      "foundationType": "Slab / Mat / Raft",
+      "garage": true,
+      "garageSpaces": 2,
+      "garageType": "Attached",
+      "heating": true,
+      "heatingType": "Central",
+      "roofType": "Shingle"
+    },
+    "taxAssessments": {
+      "2020": {
+        "year": 2020,
+        "value": 22700,
+        "land": 4000,
+        "improvements": 18700
+      },
+      "2022": {
+        "year": 2022,
+        "value": 22910,
+        "land": 4000,
+        "improvements": 18910
+      },
+      "2023": {
+        "year": 2023,
+        "value": 22910,
+        "land": 4000,
+        "improvements": 18910
+      }
+    },
+    "propertyTaxes": {
+      "2020": {
+        "year": 2020,
+        "total": 1149
+      },
+      "2022": {
+        "year": 2022,
+        "total": 1159
+      },
+      "2023": {
+        "year": 2023,
+        "total": 1159
+      }
+    },
+    "owner": {
+      "names": [
+        "Jacob C Reinemann"
+      ],
+      "type": "Individual",
+      "mailingAddress": {
+        "id": "241-Plum-Dr,-Austin,-AR-72007",
+        "formattedAddress": "241 Plum Dr, Austin, AR 72007",
+        "addressLine1": "241 Plum Dr",
+        "addressLine2": null,
+        "city": "Austin",
+        "state": "AR",
+        "zipCode": "72007"
+      }
+    },
+    "ownerOccupied": true
+  },
+  {
+    "id": "128-Peach-St,-Austin,-AR-72007",
+    "formattedAddress": "128 Peach St, Austin, AR 72007",
+    "addressLine1": "128 Peach St",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.989554,
+    "longitude": -91.986357
+  },
+  {
+    "id": "246-Plum-Dr,-Austin,-AR-72007",
+    "formattedAddress": "246 Plum Dr, Austin, AR 72007",
+    "addressLine1": "246 Plum Dr",
+    "addressLine2": null,
+    "city": "Austin",
+    "state": "AR",
+    "zipCode": "72007",
+    "county": "Lonoke",
+    "latitude": 34.990268,
+    "longitude": -91.987407,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1407,
+    "yearBuilt": 2008,
+    "assessorID": "710-07459-000",
+    "legalDescription": "LOT:59F CITY/MUNI/TWP:AUSTIN SUBD:ORCHARD ESTATES SEC/TWN/RNG/MER:SEC 08 TWN 04N RNG 09W",
+    "subdivision": "ORCHARD ESTATES",
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Wood",
+      "floorCount": 1,
+      "foundationType": "Slab / Mat / Raft",
+      "garage": true,
+      "garageSpaces": 2,
+      "garageType": "Attached",
+      "heating": true,
+      "heatingType": "Central",
+      "roofType": "Shingle"
+    },
+    "taxAssessments": {
+      "2020": {
+        "year": 2020,
+        "value": 24910,
+        "land": 4000,
+        "improvements": 20910
+      },
+      "2022": {
+        "year": 2022,
+        "value": 26280,
+        "land": 4000,
+        "improvements": 22280
+      },
+      "2023": {
+        "year": 2023,
+        "value": 26280,
+        "land": 4000,
+        "improvements": 22280
+      }
+    },
+    "propertyTaxes": {
+      "2020": {
+        "year": 2020,
+        "total": 1260
+      },
+      "2022": {
+        "year": 2022,
+        "total": 1330
+      },
+      "2023": {
+        "year": 2023,
+        "total": 1330
+      }
+    },
+    "owner": {
+      "names": [
+        "Ben H Roberts"
+      ],
+      "type": "Individual",
+      "mailingAddress": {
+        "id": "246-Plum-Dr,-Austin,-AR-72007",
+        "formattedAddress": "246 Plum Dr, Austin, AR 72007",
+        "addressLine1": "246 Plum Dr",
+        "addressLine2": null,
+        "city": "Austin",
+        "state": "AR",
+        "zipCode": "72007"
+      }
+    },
+    "ownerOccupied": true
+  }
+]

@@ -1,0 +1,443 @@
+Request headers: {
+  'X-Api-Key': '56937ae3730d48bab6c34e27e53241ee',
+  'Content-Type': 'application/json'
+}
+Request params: { limit: 20, offset: 0, city: 'Dallas', state: 'TX' }
+RentCast API response status: 200 OK
+RentCast API success response: [
+  {
+    "id": "10700-Woodmeadow-Pkwy,-Dallas,-TX-75228",
+    "formattedAddress": "10700 Woodmeadow Pkwy, Dallas, TX 75228",
+    "addressLine1": "10700 Woodmeadow Pkwy",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75228",
+    "county": "Dallas",
+    "latitude": 32.846039,
+    "longitude": -96.638577,
+    "propertyType": "Apartment",
+    "yearBuilt": 1983
+  },
+  {
+    "id": "10911-Woodmeadow-Pkwy,-Dallas,-TX-75228",
+    "formattedAddress": "10911 Woodmeadow Pkwy, Dallas, TX 75228",
+    "addressLine1": "10911 Woodmeadow Pkwy",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75228",
+    "county": "Dallas",
+    "latitude": 32.846812,
+    "longitude": -96.641226,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 652,
+    "yearBuilt": 1985
+  },
+  {
+    "id": "10500-Lake-June-Rd,-Apt-H5,-Dallas,-TX-75217",
+    "formattedAddress": "10500 Lake June Rd, Apt H5, Dallas, TX 75217",
+    "addressLine1": "10500 Lake June Rd",
+    "addressLine2": "Apt H5",
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75217",
+    "county": "Dallas",
+    "latitude": 32.732575,
+    "longitude": -96.644336,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "squareFootage": 1082,
+    "lotSize": 337154,
+    "yearBuilt": 1984,
+    "assessorID": "00C08130000H00005",
+    "legalDescription": "CANTERBURY CROSSING PH I-VIII BLK A/6683 LOT 2 ACS 7.74 BLDG H UNIT 5 CE 0.8% INT201500173995 DD04142014 CO-DC 6683 00A 00200 3006683 00A",
+    "subdivision": "CANTERBURY CROSSING PH 01-08",
+    "zoning": "Z164",
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Brick Veneer",
+      "floorCount": 2,
+      "heating": true,
+      "heatingType": "Central",
+      "unitCount": 1
+    }
+  },
+  {
+    "id": "801-N-Bishop-Ave,---2-201,-Dallas,-TX-75208",
+    "formattedAddress": "801 N Bishop Ave, # 2-201, Dallas, TX 75208",
+    "addressLine1": "801 N Bishop Ave",
+    "addressLine2": "# 2-201",
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75208",
+    "county": "Dallas County",
+    "latitude": 32.752524,
+    "longitude": -96.828301,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1095
+  },
+  {
+    "id": "1400-Browder-St,-Dallas,-TX-75215",
+    "formattedAddress": "1400 Browder St, Dallas, TX 75215",
+    "addressLine1": "1400 Browder St",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75215",
+    "county": "Dallas",
+    "latitude": 32.771585,
+    "longitude": -96.791931,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 2200
+  },
+  {
+    "id": "2514-Perryton-Dr,-Dallas,-TX-75224",
+    "formattedAddress": "2514 Perryton Dr, Dallas, TX 75224",
+    "addressLine1": "2514 Perryton Dr",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75224",
+    "county": "Dallas",
+    "latitude": 32.71105,
+    "longitude": -96.86211,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 750
+  },
+  {
+    "id": "2222-N-Saint-Augustine-Dr,-Dallas,-TX-75227",
+    "formattedAddress": "2222 N Saint Augustine Dr, Dallas, TX 75227",
+    "addressLine1": "2222 N Saint Augustine Dr",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75227",
+    "county": "Dallas County",
+    "latitude": 32.751749,
+    "longitude": -96.655516,
+    "propertyType": "Apartment",
+    "yearBuilt": 2006
+  },
+  {
+    "id": "1509-Main-St,-Dallas,-TX-75201",
+    "formattedAddress": "1509 Main St, Dallas, TX 75201",
+    "addressLine1": "1509 Main St",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75201",
+    "county": "Dallas",
+    "latitude": 32.780871,
+    "longitude": -96.799302,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 954,
+    "yearBuilt": 1913
+  },
+  {
+    "id": "811-Morrell-Ave,-Dallas,-TX-75203",
+    "formattedAddress": "811 Morrell Ave, Dallas, TX 75203",
+    "addressLine1": "811 Morrell Ave",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75203",
+    "county": "Dallas County",
+    "latitude": 32.739266,
+    "longitude": -96.811095,
+    "propertyType": "Apartment",
+    "bathrooms": 2,
+    "yearBuilt": 2003
+  },
+  {
+    "id": "7878-Marvin-D-Love-Fwy,-Dallas,-TX-75237",
+    "formattedAddress": "7878 Marvin D Love Fwy, Dallas, TX 75237",
+    "addressLine1": "7878 Marvin D Love Fwy",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75237",
+    "county": "Dallas",
+    "latitude": 32.650705,
+    "longitude": -96.878809,
+    "propertyType": "Apartment",
+    "bathrooms": 1,
+    "yearBuilt": 1986,
+    "features": {
+      "unitCount": 242
+    },
+    "taxAssessments": {
+      "2013": {
+        "year": 2013,
+        "value": 5200000,
+        "land": 774650,
+        "improvements": 4425350
+      },
+      "2014": {
+        "year": 2014,
+        "value": 5928570,
+        "land": 774650,
+        "improvements": 5153920
+      },
+      "2015": {
+        "year": 2015,
+        "value": 6878570,
+        "land": 774650,
+        "improvements": 6103920
+      },
+      "2016": {
+        "year": 2016,
+        "value": 7071050,
+        "land": 774650,
+        "improvements": 6296400
+      },
+      "2017": {
+        "year": 2017,
+        "value": 8878570,
+        "land": 774650,
+        "improvements": 8103920
+      },
+      "2018": {
+        "year": 2018,
+        "value": 10385250,
+        "land": 774650,
+        "improvements": 9610600
+      },
+      "2019": {
+        "year": 2019,
+        "value": 12578570,
+        "land": 774650,
+        "improvements": 11803920
+      },
+      "2020": {
+        "year": 2020,
+        "value": 14878570,
+        "land": 774650,
+        "improvements": 14103920
+      },
+      "2021": {
+        "year": 2021,
+        "value": 15728570,
+        "land": 774650,
+        "improvements": 14953920
+      },
+      "2022": {
+        "year": 2022,
+        "value": 17802890,
+        "land": 775370,
+        "improvements": 17027520
+      }
+    },
+    "propertyTaxes": {
+      "2013": {
+        "year": 2013,
+        "total": 148241
+      },
+      "2014": {
+        "year": 2014,
+        "total": 169608
+      },
+      "2015": {
+        "year": 2015,
+        "total": 205617
+      },
+      "2016": {
+        "year": 2016,
+        "total": 209210
+      },
+      "2017": {
+        "year": 2017,
+        "total": 262682
+      },
+      "2018": {
+        "year": 2018,
+        "total": 306697
+      },
+      "2019": {
+        "year": 2019,
+        "total": 357420
+      },
+      "2020": {
+        "year": 2020,
+        "total": 414180
+      },
+      "2021": {
+        "year": 2021,
+        "total": 425561
+      },
+      "2022": {
+        "year": 2022,
+        "total": 457239
+      }
+    }
+  },
+  {
+    "id": "4101-Delafield-Ln,-Dallas,-TX-75227",
+    "formattedAddress": "4101 Delafield Ln, Dallas, TX 75227",
+    "addressLine1": "4101 Delafield Ln",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75227",
+    "county": "Dallas",
+    "latitude": 32.77318,
+    "longitude": -96.674896,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "yearBuilt": 2005
+  },
+  {
+    "id": "9415-Bruton-Rd,-Dallas,-TX-75217",
+    "formattedAddress": "9415 Bruton Rd, Dallas, TX 75217",
+    "addressLine1": "9415 Bruton Rd",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75217",
+    "county": "Dallas",
+    "latitude": 32.74996,
+    "longitude": -96.658284,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 869,
+    "yearBuilt": 2016
+  },
+  {
+    "id": "3035-W-Pentagon-Pkwy,-Dallas,-TX-75233",
+    "formattedAddress": "3035 W Pentagon Pkwy, Dallas, TX 75233",
+    "addressLine1": "3035 W Pentagon Pkwy",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75233",
+    "county": "Dallas",
+    "latitude": 32.707053,
+    "longitude": -96.868748,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "yearBuilt": 1968
+  },
+  {
+    "id": "1201-S-Ewing-Ave,-Dallas,-TX-75216",
+    "formattedAddress": "1201 S Ewing Ave, Dallas, TX 75216",
+    "addressLine1": "1201 S Ewing Ave",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75216",
+    "county": "Dallas",
+    "latitude": 32.734567,
+    "longitude": -96.812579,
+    "propertyType": "Apartment",
+    "yearBuilt": 2006
+  },
+  {
+    "id": "6363-W-Camp-Wisdom-Rd,-Dallas,-TX-75236",
+    "formattedAddress": "6363 W Camp Wisdom Rd, Dallas, TX 75236",
+    "addressLine1": "6363 W Camp Wisdom Rd",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75236",
+    "county": "Dallas",
+    "latitude": 32.663416,
+    "longitude": -96.928694,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "yearBuilt": 1986
+  },
+  {
+    "id": "3636-W-Red-Bird-Ln,-Dallas,-TX-75237",
+    "formattedAddress": "3636 W Red Bird Ln, Dallas, TX 75237",
+    "addressLine1": "3636 W Red Bird Ln",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75237",
+    "county": "Dallas",
+    "latitude": 32.674657,
+    "longitude": -96.879303,
+    "propertyType": "Townhouse",
+    "yearBuilt": 1987
+  },
+  {
+    "id": "2540-Bahama-Dr,-Dallas,-TX-75211",
+    "formattedAddress": "2540 Bahama Dr, Dallas, TX 75211",
+    "addressLine1": "2540 Bahama Dr",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75211",
+    "county": "Dallas",
+    "latitude": 32.75546,
+    "longitude": -96.86307,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "yearBuilt": 1984
+  },
+  {
+    "id": "990-Singleton-Blvd,-Dallas,-TX-75212",
+    "formattedAddress": "990 Singleton Blvd, Dallas, TX 75212",
+    "addressLine1": "990 Singleton Blvd",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75212",
+    "county": "Dallas",
+    "latitude": 32.77682,
+    "longitude": -96.837872,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "yearBuilt": 2019
+  },
+  {
+    "id": "1520-N-Beckley-Ave,-Dallas,-TX-75203",
+    "formattedAddress": "1520 N Beckley Ave, Dallas, TX 75203",
+    "addressLine1": "1520 N Beckley Ave",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75203",
+    "county": "Dallas",
+    "latitude": 32.763051,
+    "longitude": -96.819239,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 823,
+    "yearBuilt": 2002
+  },
+  {
+    "id": "400-S-Hall-St,-Dallas,-TX-75226",
+    "formattedAddress": "400 S Hall St, Dallas, TX 75226",
+    "addressLine1": "400 S Hall St",
+    "addressLine2": null,
+    "city": "Dallas",
+    "state": "TX",
+    "zipCode": "75226",
+    "county": "Dallas",
+    "latitude": 32.781156,
+    "longitude": -96.778852,
+    "propertyType": "Apartment",
+    "yearBuilt": 2019
+  }
+]
+2:51:25 AM [express] GET /api/rentcast/search 304 in 536ms :: {"properties":[{"id":"10700-Woodmeadow…

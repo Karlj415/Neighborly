@@ -1,0 +1,853 @@
+🚀 Background job manager started
+📊 Starting daily trust score updates...
+9:30:11 PM [express] serving on port 5000
+Found 4 users needing trust score updates
+Error calculating trust score: error: column "resolution_notes" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.calculateAndUpdateTrustScore (/home/runner/workspace/server/storage.ts:3608:26)
+    at async BackgroundJobManager.runTrustScoreUpdates (/home/runner/workspace/server/background-jobs.ts:55:28) {
+  length: 117,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '129',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3722',
+  routine: 'errorMissingColumn'
+}
+❌ Failed to update trust score for user 2: error: column "change_reason" of relation "verification_logs" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.logVerification (/home/runner/workspace/server/storage.ts:3577:22)
+    at async DatabaseStorage.calculateAndUpdateTrustScore (/home/runner/workspace/server/storage.ts:3691:7)
+    at async BackgroundJobManager.runTrustScoreUpdates (/home/runner/workspace/server/background-jobs.ts:55:28) {
+  length: 144,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '115',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_target.c',
+  line: '1066',
+  routine: 'checkInsertTargets'
+}
+Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Error calculating trust score: error: column "resolution_notes" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.calculateAndUpdateTrustScore (/home/runner/workspace/server/storage.ts:3608:26)
+    at async BackgroundJobManager.runTrustScoreUpdates (/home/runner/workspace/server/background-jobs.ts:55:28) {
+  length: 117,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '129',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3722',
+  routine: 'errorMissingColumn'
+}
+❌ Failed to update trust score for user 3: error: column "change_reason" of relation "verification_logs" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.logVerification (/home/runner/workspace/server/storage.ts:3577:22)
+    at async DatabaseStorage.calculateAndUpdateTrustScore (/home/runner/workspace/server/storage.ts:3691:7)
+    at async BackgroundJobManager.runTrustScoreUpdates (/home/runner/workspace/server/background-jobs.ts:55:28) {
+  length: 144,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '115',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_target.c',
+  line: '1066',
+  routine: 'checkInsertTargets'
+}
+Error calculating trust score: error: column "resolution_notes" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.calculateAndUpdateTrustScore (/home/runner/workspace/server/storage.ts:3608:26)
+    at async BackgroundJobManager.runTrustScoreUpdates (/home/runner/workspace/server/background-jobs.ts:55:28) {
+  length: 117,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '129',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3722',
+  routine: 'errorMissingColumn'
+}
+❌ Failed to update trust score for user 1: error: column "change_reason" of relation "verification_logs" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.logVerification (/home/runner/workspace/server/storage.ts:3577:22)
+    at async DatabaseStorage.calculateAndUpdateTrustScore (/home/runner/workspace/server/storage.ts:3691:7)
+    at async BackgroundJobManager.runTrustScoreUpdates (/home/runner/workspace/server/background-jobs.ts:55:28) {
+  length: 144,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '115',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_target.c',
+  line: '1066',
+  routine: 'checkInsertTargets'
+}
+Error calculating trust score: error: column "resolution_notes" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.calculateAndUpdateTrustScore (/home/runner/workspace/server/storage.ts:3608:26)
+    at async BackgroundJobManager.runTrustScoreUpdates (/home/runner/workspace/server/background-jobs.ts:55:28) {
+  length: 117,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '129',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3722',
+  routine: 'errorMissingColumn'
+}
+❌ Failed to update trust score for user 6: error: column "change_reason" of relation "verification_logs" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.logVerification (/home/runner/workspace/server/storage.ts:3577:22)
+    at async DatabaseStorage.calculateAndUpdateTrustScore (/home/runner/workspace/server/storage.ts:3691:7)
+    at async BackgroundJobManager.runTrustScoreUpdates (/home/runner/workspace/server/background-jobs.ts:55:28) {
+  length: 144,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '115',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_target.c',
+  line: '1066',
+  routine: 'checkInsertTargets'
+}
+🎯 Trust score update complete: 0 updated, 4 errors
+9:30:26 PM [express] GET /api/auth/user 200 in 441ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+unifiedAuth - checking auth for: /api/saved-properties
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:30:27 PM [express] GET /api/saved-properties 304 in 254ms :: []
+9:30:27 PM [express] GET /api/properties 304 in 566ms :: [{"id":7,"title":"Modern Loft Downtown","de…
+unifiedAuth - checking auth for: /api/users/location
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:30:55 PM [express] PATCH /api/users/location 200 in 796ms :: {"id":1,"email":"carsonr317@gmail.com…
+9:30:56 PM [express] GET /api/auth/user 200 in 236ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+unifiedAuth - checking auth for: /api/zillow/search
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - checking auth for: /api/saved-properties
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+Making Zillow API request 1 with offset 0
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=0
+unifiedAuth - custom auth success for user: 1
+9:30:56 PM [express] GET /api/saved-properties 304 in 775ms :: []
+9:30:56 PM [vite] hmr update /src/components/IMessageChat.tsx, /src/index.css?v=R2uNB6RCjsOBgvua-7Crl
+9:30:56 PM [express] GET /api/properties 304 in 643ms :: [{"id":7,"title":"Modern Loft Downtown","de…
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 0
+}
+Total properties available: 5018
+Added 41 properties from request 1. Total collected: 41
+Making Zillow API request 2 with offset 41
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=41
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 41
+}
+Added 41 properties from request 2. Total collected: 82
+Making Zillow API request 3 with offset 82
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=82
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 82
+}
+Added 41 properties from request 3. Total collected: 123
+Making Zillow API request 4 with offset 123
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=123
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 123
+}
+Added 41 properties from request 4. Total collected: 164
+Making Zillow API request 5 with offset 164
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=164
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 164
+}
+Added 41 properties from request 5. Total collected: 205
+Making Zillow API request 6 with offset 205
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=205
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 205
+}
+Added 41 properties from request 6. Total collected: 246
+Making Zillow API request 7 with offset 246
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=246
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 246
+}
+Added 41 properties from request 7. Total collected: 287
+Making Zillow API request 8 with offset 287
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=287
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 287
+}
+Added 41 properties from request 8. Total collected: 328
+Making Zillow API request 9 with offset 328
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=328
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 328
+}
+Added 41 properties from request 9. Total collected: 369
+Making Zillow API request 10 with offset 369
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=369
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 369
+}
+Added 41 properties from request 10. Total collected: 410
+Making Zillow API request 11 with offset 410
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=410
+Zillow API response status: 429
+Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+Error making Zillow API request: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+Error searching Zillow properties: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+Zillow API error: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+9:31:10 PM [express] GET /api/zillow/search 503 in 14377ms :: {"message":"Zillow API temporarily una…
+unifiedAuth - checking auth for: /api/zillow/search
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+Making Zillow API request 1 with offset 0
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=0
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 0
+}
+Total properties available: 5018
+Added 41 properties from request 1. Total collected: 41
+Making Zillow API request 2 with offset 41
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=41
+Zillow API response status: 429
+Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+Error making Zillow API request: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+Error searching Zillow properties: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+Zillow API error: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+9:31:11 PM [express] GET /api/zillow/search 503 in 974ms :: {"message":"Zillow API temporarily unava…
+9:31:31 PM [express] GET /api/auth/user 200 in 429ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+unifiedAuth - checking auth for: /api/saved-properties
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:31:31 PM [express] GET /api/saved-properties 304 in 237ms :: []
+unifiedAuth - checking auth for: /api/users/location
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+9:31:31 PM [express] GET /api/properties 304 in 352ms :: [{"id":7,"title":"Modern Loft Downtown","de…
+unifiedAuth - custom auth success for user: 1
+9:31:31 PM [express] PATCH /api/users/location 200 in 233ms :: {"id":1,"email":"carsonr317@gmail.com…
+unifiedAuth - checking auth for: /api/saved-properties
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - checking auth for: /api/zillow/search
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:31:32 PM [express] GET /api/auth/user 200 in 231ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+9:31:32 PM [express] GET /api/saved-properties 304 in 237ms :: []
+unifiedAuth - custom auth success for user: 1
+Making Zillow API request 1 with offset 0
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=0
+9:31:32 PM [express] GET /api/properties 304 in 361ms :: [{"id":7,"title":"Modern Loft Downtown","de…
+Zillow API response status: 200
+Zillow API returned 41 properties out of 5018 total available
+Zillow API endpoint: /propertyExtendedSearch
+Zillow API params: {
+  location: 'Dallas, Texas',
+  homeStatus: 'FOR_RENT',
+  limit: 10000,
+  searchQueryState: { filterState: { sortSelection: [Object] } },
+  wants: { cat1: [ 'ForRent' ] },
+  offset: 0
+}
+Total properties available: 5018
+Added 41 properties from request 1. Total collected: 41
+unifiedAuth - checking auth for: /api/property-listings
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - checking auth for: /api/posts
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+Making Zillow API request 2 with offset 41
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=41
+unifiedAuth - checking auth for: /api/documents
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+=== GET /api/property-listings START ===
+Authenticated user ID: 1
+unifiedAuth - custom auth success for user: 1
+unifiedAuth - custom auth success for user: 1
+Zillow API response status: 429
+Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+Error making Zillow API request: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+Error searching Zillow properties: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+Zillow API error: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+9:31:32 PM [express] GET /api/zillow/search 503 in 1008ms :: {"message":"Zillow API temporarily unav…
+Found user: {
+  id: 1,
+  email: 'carsonr317@gmail.com',
+  city: 'Dallas',
+  state: 'Texas'
+}
+Using city/state for filtering: { city: 'Dallas', state: 'Texas' }
+=== getPropertyListingsByLocation START ===
+Input params: { zipCode: undefined, city: 'Dallas', state: 'Texas' }
+🔍 Adding city + state filter: { city: 'Dallas', state: 'Texas' }
+🔍 State mapping: { original: 'Texas', abbreviation: 'TX' }
+📊 Location conditions count: 1
+unifiedAuth - checking auth for: /api/zillow/search
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+Making Zillow API request 1 with offset 0
+Making Zillow API request to: https://zillow-com1.p.rapidapi.com/propertyExtendedSearch?location=Dallas%2C+Texas&homeStatus=FOR_RENT&limit=10000&searchQueryState=%5Bobject+Object%5D&wants=%5Bobject+Object%5D&offset=0
+Zillow API response status: 429
+Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+Error making Zillow API request: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+Error searching Zillow properties: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+Zillow API error: Error: Zillow API error: 429 - {"message":"You have exceeded the rate limit per minute for your plan, BASIC, by the API provider"}
+    at ZillowAPI.makeRequest (/home/runner/workspace/server/zillow-api.ts:67:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ZillowAPI.searchProperties (/home/runner/workspace/server/zillow-api.ts:150:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:458:28)
+9:31:33 PM [express] GET /api/posts 200 in 664ms :: [{"id":29,"userId":"6","title":"Jermaines Post",…
+9:31:33 PM [express] GET /api/documents 304 in 696ms :: [{"id":2,"userId":"1","documentType":"id","f…
+9:31:33 PM [express] GET /api/zillow/search 503 in 453ms :: {"message":"Zillow API temporarily unava…
+✅ Found 2 listings for city Dallas, Texas
+Listings summary: [
+  {
+    id: 39,
+    address: '5707 Marquita Avenue',
+    city: 'Dallas',
+    state: 'TX',
+    userId: '6',
+    monthlyRent: 1000,
+    hasUser: true
+  },
+  {
+    id: 36,
+    address: '8159 Southwestern Boulevard',
+    city: 'Dallas',
+    state: 'TX',
+    userId: '1',
+    monthlyRent: 1000,
+    hasUser: true
+  }
+]
+=== GET /api/property-listings END ===
+9:31:33 PM [express] GET /api/property-listings 200 in 1323ms :: [{"id":39,"userId":"6","address":"5…
+unifiedAuth - checking auth for: /api/applications/check
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:31:34 PM [express] POST /api/applications/check 200 in 239ms :: [{"propertyId":39,"hasApplied":tru…
+unifiedAuth - checking auth for: /api/conversations
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+User 1 connected to WebSocket
+9:31:38 PM [express] GET /api/conversations 304 in 487ms :: [{"id":1,"participant1Id":"6","participa…
+User 1 disconnected from WebSocket
+unifiedAuth - checking auth for: /api/user-conversations/1/messages
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+=== GET /api/user-conversations/:id/messages DEBUG START ===
+GET messages - userId: 1 conversationId: 1
+User 1 connected to WebSocket
+GET messages - found messages: 94
+=== GET /api/user-conversations/:id/messages DEBUG END ===
+9:31:41 PM [express] GET /api/user-conversations/1/messages 304 in 2202ms :: [{"id":1,"conversationI…
+unifiedAuth - checking auth for: /api/applications/25
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:31:44 PM [express] GET /api/applications/25 304 in 239ms :: {"id":25,"userId":"1","propertyId":39,…
+unifiedAuth - checking auth for: /api/applications/25
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:31:47 PM [express] GET /api/applications/25 304 in 237ms :: {"id":25,"userId":"1","propertyId":39,…
+success
+unifiedAuth - checking auth for: /api/applications/25
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:32:46 PM [express] GET /api/applications/25 304 in 840ms :: {"id":25,"userId":"1","propertyId":39,…
+unifiedAuth - checking auth for: /api/applications/24
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:32:47 PM [express] GET /api/applications/24 304 in 244ms :: {"id":24,"userId":"6","propertyId":36,…
+unifiedAuth - checking auth for: /api/applications/13
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:32:51 PM [express] GET /api/applications/13 200 in 239ms :: {"id":13,"userId":"6","propertyId":36,…
+unifiedAuth - checking auth for: /api/applications/13/deny
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+[UPDATE STATUS] Updating application 13 from ? to declined
+[UPDATE STATUS] Application 13 updated successfully. New status: declined
+9:32:52 PM [express] POST /api/applications/13/deny 200 in 247ms :: {"message":"Application denied s…
+unifiedAuth - checking auth for: /api/user-conversations/1/messages
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+=== GET /api/user-conversations/:id/messages DEBUG START ===
+GET messages - userId: 1 conversationId: 1
+GET messages - found messages: 94
+=== GET /api/user-conversations/:id/messages DEBUG END ===
+unifiedAuth - checking auth for: /api/applications/13
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:32:55 PM [express] GET /api/applications/13 200 in 697ms :: {"id":13,"userId":"6","propertyId":36,…
+9:32:55 PM [express] GET /api/user-conversations/1/messages 304 in 2486ms :: [{"id":1,"conversationI…
+unifiedAuth - checking auth for: /api/applications/13
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:32:57 PM [express] GET /api/applications/13 304 in 237ms :: {"id":13,"userId":"6","propertyId":36,…
+unifiedAuth - checking auth for: /api/applications/24
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:33:00 PM [express] GET /api/applications/24 304 in 237ms :: {"id":24,"userId":"6","propertyId":36,…
+unifiedAuth - checking auth for: /api/applications/25
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:33:02 PM [express] GET /api/applications/25 304 in 237ms :: {"id":25,"userId":"1","propertyId":39,…
+9:33:45 PM [express] GET /api/auth/user 200 in 782ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+User 1 disconnected from WebSocket
+9:34:00 PM [express] GET /api/auth/user 200 in 418ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+unifiedAuth - checking auth for: /api/property-listings
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - checking auth for: /api/documents
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - checking auth for: /api/posts
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+=== GET /api/property-listings START ===
+Authenticated user ID: 1
+Found user: {
+  id: 1,
+  email: 'carsonr317@gmail.com',
+  city: 'Dallas',
+  state: 'Texas'
+}
+Using city/state for filtering: { city: 'Dallas', state: 'Texas' }
+=== getPropertyListingsByLocation START ===
+Input params: { zipCode: undefined, city: 'Dallas', state: 'Texas' }
+🔍 Adding city + state filter: { city: 'Dallas', state: 'Texas' }
+🔍 State mapping: { original: 'Texas', abbreviation: 'TX' }
+📊 Location conditions count: 1
+unifiedAuth - custom auth success for user: 1
+unifiedAuth - custom auth success for user: 1
+9:34:01 PM [express] GET /api/documents 304 in 1301ms :: [{"id":2,"userId":"1","documentType":"id","…
+9:34:01 PM [express] GET /api/posts 304 in 1323ms :: [{"id":29,"userId":"6","title":"Jermaines Post"…
+✅ Found 2 listings for city Dallas, Texas
+Listings summary: [
+  {
+    id: 39,
+    address: '5707 Marquita Avenue',
+    city: 'Dallas',
+    state: 'TX',
+    userId: '6',
+    monthlyRent: 1000,
+    hasUser: true
+  },
+  {
+    id: 36,
+    address: '8159 Southwestern Boulevard',
+    city: 'Dallas',
+    state: 'TX',
+    userId: '1',
+    monthlyRent: 1000,
+    hasUser: true
+  }
+]
+=== GET /api/property-listings END ===
+9:34:02 PM [express] GET /api/property-listings 304 in 1413ms :: [{"id":39,"userId":"6","address":"5…
+unifiedAuth - checking auth for: /api/applications/check
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:34:02 PM [express] POST /api/applications/check 200 in 237ms :: [{"propertyId":39,"hasApplied":tru…
+unifiedAuth - checking auth for: /api/conversations
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+User 1 connected to WebSocket
+9:34:12 PM [express] GET /api/conversations 304 in 465ms :: [{"id":1,"participant1Id":"6","participa…
+User 1 disconnected from WebSocket
+unifiedAuth - checking auth for: /api/user-conversations/1/messages
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+=== GET /api/user-conversations/:id/messages DEBUG START ===
+GET messages - userId: 1 conversationId: 1
+User 1 connected to WebSocket
+GET messages - found messages: 94
+=== GET /api/user-conversations/:id/messages DEBUG END ===
+9:34:15 PM [express] GET /api/user-conversations/1/messages 304 in 1873ms :: [{"id":1,"conversationI…
+unifiedAuth - checking auth for: /api/applications/25
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:34:18 PM [express] GET /api/applications/25 304 in 238ms :: {"id":25,"userId":"1","propertyId":39,…
+unifiedAuth - checking auth for: /api/applications/24
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:34:26 PM [express] GET /api/applications/24 304 in 233ms :: {"id":24,"userId":"6","propertyId":36,…
+User 1 disconnected from WebSocket
+9:34:53 PM [express] GET /api/auth/user 200 in 514ms :: {"id":1,"email":"carsonr317@gmail.com","firs…
+unifiedAuth - checking auth for: /api/property-listings
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - checking auth for: /api/posts
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - checking auth for: /api/documents
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+=== GET /api/property-listings START ===
+Authenticated user ID: 1
+Found user: {
+  id: 1,
+  email: 'carsonr317@gmail.com',
+  city: 'Dallas',
+  state: 'Texas'
+}
+Using city/state for filtering: { city: 'Dallas', state: 'Texas' }
+=== getPropertyListingsByLocation START ===
+Input params: { zipCode: undefined, city: 'Dallas', state: 'Texas' }
+🔍 Adding city + state filter: { city: 'Dallas', state: 'Texas' }
+🔍 State mapping: { original: 'Texas', abbreviation: 'TX' }
+📊 Location conditions count: 1
+unifiedAuth - custom auth success for user: 1
+unifiedAuth - custom auth success for user: 1
+9:34:54 PM [express] GET /api/documents 304 in 1150ms :: [{"id":2,"userId":"1","documentType":"id","…
+9:34:54 PM [express] GET /api/posts 304 in 1201ms :: [{"id":29,"userId":"6","title":"Jermaines Post"…
+✅ Found 2 listings for city Dallas, Texas
+Listings summary: [
+  {
+    id: 39,
+    address: '5707 Marquita Avenue',
+    city: 'Dallas',
+    state: 'TX',
+    userId: '6',
+    monthlyRent: 1000,
+    hasUser: true
+  },
+  {
+    id: 36,
+    address: '8159 Southwestern Boulevard',
+    city: 'Dallas',
+    state: 'TX',
+    userId: '1',
+    monthlyRent: 1000,
+    hasUser: true
+  }
+]
+=== GET /api/property-listings END ===
+9:34:55 PM [express] GET /api/property-listings 304 in 1295ms :: [{"id":39,"userId":"6","address":"5…
+unifiedAuth - checking auth for: /api/applications/check
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:34:55 PM [express] POST /api/applications/check 200 in 237ms :: [{"propertyId":39,"hasApplied":tru…
+unifiedAuth - checking auth for: /api/conversations
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+User 1 connected to WebSocket
+9:34:57 PM [express] GET /api/conversations 304 in 468ms :: [{"id":1,"participant1Id":"6","participa…
+User 1 disconnected from WebSocket
+unifiedAuth - checking auth for: /api/user-conversations/1/messages
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+=== GET /api/user-conversations/:id/messages DEBUG START ===
+GET messages - userId: 1 conversationId: 1
+User 1 connected to WebSocket
+GET messages - found messages: 94
+=== GET /api/user-conversations/:id/messages DEBUG END ===
+9:34:59 PM [express] GET /api/user-conversations/1/messages 304 in 1724ms :: [{"id":1,"conversationI…
+unifiedAuth - checking auth for: /api/applications/25
+unifiedAuth - session: true
+unifiedAuth - isAuthenticated: true
+unifiedAuth - custom auth found, userId: 1
+unifiedAuth - custom auth success for user: 1
+9:35:15 PM [express] GET /api/applications/25 304 in 803ms :: {"id":25,"userId":"1","propertyId":39,…

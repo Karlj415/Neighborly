@@ -1,0 +1,51 @@
+12:47:38 AM [express] GET /api/auth/user 500 in 378ms :: {"message":"Failed to fetch user"}
+Login error: error: column "preferred_bedrooms" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.getAuthUserByEmail (/home/runner/workspace/server/storage.ts:207:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:122:20) {
+  length: 119,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '569',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3722',
+  routine: 'errorMissingColumn'
+}
+12:47:46 AM [express] POST /api/auth/login 500 in 358ms :: {"message":"Failed to authenticate"}
+Error fetching user: error: column "preferred_bedrooms" does not exist
+    at file:///home/runner/workspace/node_modules/@neondatabase/serverless/index.mjs:1345:74
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NeonPreparedQuery.execute (/home/runner/workspace/node_modules/src/neon-serverless/session.ts:102:18)
+    at async DatabaseStorage.getAuthUser (/home/runner/workspace/server/storage.ts:220:20)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:189:26) {
+  length: 119,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '569',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3722',
+  routine: 'errorMissingColumn'
+}
+12:47:48 AM [express] GET /api/auth/user 500 in 362ms :: {"message":"Failed to fetch user"}
